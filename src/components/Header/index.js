@@ -25,6 +25,8 @@ const Header = () => (
       </h1>
         <ul style={{ listStyle: `none`, float: `right`, margin: `0 0 0 auto` }}>
             <Navigation to="/">Home</Navigation>
+            <Navigation to="/about-pandas/">About pandas</Navigation>
+            <Navigation to="/markdown-files/">Markdown</Navigation>
             <Navigation to="/page-2/">Go to page 2</Navigation>
             <Navigation to="/counter/">Counter</Navigation>
             <Navigation to="/about-css-modules/">About css modules</Navigation>
